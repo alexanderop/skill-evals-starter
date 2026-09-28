@@ -13,6 +13,8 @@ pnpm test:evals:list
 
 The free checks require no coding-agent account. They use fake CLI processes and Chromium to check runner behavior and calibrate the HTML assertions. Keep model calls out of `pnpm verify` and GitHub CI.
 
+Use `pnpm lint:fix` to apply Oxlint fixes and `pnpm format` to format with Oxfmt. CI checks both tools through `pnpm verify`. Formatting excludes vendored files in `skills/`.
+
 ## Change the runner or add an agent
 
 Keep workspace creation, process cancellation, output evidence, and cleanup in the shared runner. Put CLI-specific behavior in an adapter. Follow [the adapter guide](docs/agents.md) when adding another coding agent.

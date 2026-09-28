@@ -115,6 +115,7 @@ Process-group termination and escalation are implemented for macOS and Linux. Wi
 - `pnpm test:evals` runs live cases one worker at a time.
 - `pnpm test:agents:smoke` runs a live skill and baseline check for the selected agent.
 - `pnpm check`, `pnpm lint`, and `pnpm format:check` run individual checks.
+- `pnpm lint:fix` applies Oxlint fixes; `pnpm format` formats with Oxfmt.
 - `pnpm verify` runs every free check.
 
 The four included live tests are examples. Passing them proves those fixture checks for the recorded CLI and model. It does not measure general skill quality.
