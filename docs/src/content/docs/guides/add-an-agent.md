@@ -3,6 +3,10 @@ title: Add a coding agent
 description: Implement an adapter while preserving shared workspace, evidence, cancellation, and cleanup behavior.
 ---
 
+![The shared runner owns workspaces, deadlines, evidence, and cleanup. Claude Code, Codex, and Copilot adapters handle skill placement, CLI arguments, and event decoding. All return a common RunResult. ACP is an unimplemented future transport.](../../../assets/agent-architecture.png)
+
+_AI-generated architecture overview. ACP is shown separately because it is not an implemented backend._
+
 The adapter contract is `AgentAdapter` in `src/agents/types.ts`.
 
 1. Add an adapter module under `src/agents/`. Use `AgentAdapter` from `src/agents/types.ts` as the contract.

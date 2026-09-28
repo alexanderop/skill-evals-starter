@@ -5,6 +5,10 @@ description: Run free checks, discover the examples, and optionally evaluate one
 
 We will run the starter's free checks, then run one HTML evaluation with an authenticated agent. The live step can consume paid usage or subscription allowance.
 
+![Six stages: skill, prompt, and fixtures; fresh Git workspace; coding agent; generated files; Vitest graders; result and evidence.](../../../assets/evaluation-flow.png)
+
+_AI-generated overview of one evaluation. The steps below run this workflow._
+
 ## Get the starter
 
 Use Node.js 22.12 or newer, pnpm 10.28.2, and Git. Create a repository with GitHub's **Use this template** button, or clone the starter:

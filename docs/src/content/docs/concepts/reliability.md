@@ -7,6 +7,10 @@ A single pass shows that one attempt satisfied the grader. It does not show how 
 
 Anthropic's [agent evaluation article](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) distinguishes success within several attempts from success on every attempt. Choose the metric according to how the product uses those attempts.
 
+![With independent trials and a 75 percent per-trial success probability, at least one success becomes more likely as attempts increase, while success on every attempt becomes less likely. At three attempts the probabilities are 98.44 percent and 42.19 percent.](../../../assets/trial-reliability.png)
+
+_AI-generated schematic. The curves illustrate the trend; use the formulas and table below for exact values. These are not measured benchmark results._
+
 ## At least one success versus every success
 
 For an illustrative task with independent attempts and a fixed per-trial success probability `p`:

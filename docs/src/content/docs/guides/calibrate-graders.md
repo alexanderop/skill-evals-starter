@@ -3,6 +3,10 @@ title: Calibrate graders
 description: Test your success criteria against valid outputs and deliberate defects before running agents.
 ---
 
+![A reference page passes. A blue link fails computed color checks. A hidden paragraph fails visible-content checks.](../../../assets/grader-comparison.png)
+
+_AI-generated illustration of grader calibration. These simplified pages are not screenshots of test results._
+
 ## Prove that a valid solution passes
 
 Write a reference output independently of the agent. Run the exact grader used by the live case against that output. Resolve failures before spending model calls.

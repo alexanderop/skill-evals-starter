@@ -3,6 +3,10 @@ title: Debug a failed evaluation
 description: Separate agent mistakes from process, environment, task, and grading failures.
 ---
 
+![Read the failed color check, inspect assertions.json, git-diff.patch, and assertion-failure.png, then locate the blue link in the generated page.](../../../assets/failure-evidence.png)
+
+_AI-generated failure walkthrough. The example illustrates a wrong link color; it is not a captured trial._
+
 ## Locate the evidence
 
 Read the Vitest failure and `.vitest/results/live-evals.json`. Follow `skillEval.evidencePath` to the run directory. A direct caller can inspect `SkillRunError.code` and `SkillRunError.evidencePath`.
