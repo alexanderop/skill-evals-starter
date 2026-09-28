@@ -2,6 +2,8 @@
 
 A small, strict TypeScript template for testing file-editing skills with Claude Code, OpenAI Codex, and GitHub Copilot CLI. Ordinary Vitest assertions judge observable output. Each live case uses a fresh agent process and a temporary Git project. The free test suite uses fake processes.
 
+[Read the documentation](https://alexanderop.github.io/skill-evals-starter/) for the first-run tutorial, evaluation design, grader calibration, agent adapters, and API reference.
+
 ## Start your project
 
 Use GitHub's **Use this template** button to create your own repository, or clone this project to try it locally.
@@ -117,6 +119,7 @@ Process-group termination and escalation are implemented for macOS and Linux. Wi
 - `pnpm check`, `pnpm lint`, and `pnpm format:check` run individual checks.
 - `pnpm lint:fix` applies Oxlint fixes; `pnpm format` formats with Oxfmt.
 - `pnpm verify` runs every free check.
+- `pnpm docs:dev` starts the Astro Starlight docs. `pnpm docs:build` builds the site and checks internal links. `pnpm docs:preview` serves the production build, including search.
 
 The four included live tests are examples. Passing them proves those fixture checks for the recorded CLI and model. It does not measure general skill quality.
 

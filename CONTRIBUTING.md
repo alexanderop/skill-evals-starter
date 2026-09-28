@@ -33,6 +33,8 @@ Preserve third-party licenses and provenance. Keep vendored skill files unchange
 
 ## Submit a change
 
+Documentation lives in `docs/src/content/docs/`. Use `pnpm docs:dev` for editing and `pnpm docs:build && pnpm docs:preview` to verify production search. See [the publication guide](docs/src/content/docs/guides/publish-docs.md) for Pages and fork configuration. `pnpm verify` checks and builds the docs before CI can deploy them.
+
 Run `pnpm verify` and `pnpm test:evals:list` before opening a pull request. Describe the behavior change and the checks you ran.
 
 Do not commit `.env` files, credentials, transcripts, screenshots from private tasks, or `.eval-artifacts/`. Share a sanitized reproduction instead of a raw live-run log. Generated evidence remains local by default.

@@ -16,11 +16,19 @@
     "lint:fix": "oxlint --fix .",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
-    "verify": "pnpm format:check && pnpm lint && pnpm check && pnpm test",
-    "browser:install": "playwright install chromium"
+    "verify": "pnpm format:check && pnpm lint && pnpm check && pnpm test && pnpm docs:check && pnpm docs:build",
+    "browser:install": "playwright install chromium",
+    "docs:dev": "cd docs && astro dev",
+    "docs:check": "astro check --root docs",
+    "docs:build": "astro build --root docs && node scripts/check-docs-links.mjs",
+    "docs:preview": "cd docs && astro preview"
   },
   "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@astrojs/markdown-remark": "7.3.0",
+    "@astrojs/starlight": "0.42.4",
     "@types/node": "24.10.1",
+    "astro": "7.3.5",
     "oxfmt": "0.71.0",
     "oxlint": "1.86.0",
     "playwright": "1.63.0",
