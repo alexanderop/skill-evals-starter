@@ -1,0 +1,39 @@
+{
+  "name": "skill-evals-starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "test": "node scripts/test-free.mjs",
+    "test:evals": "node scripts/run-evals.mjs",
+    "test:agents:smoke": "node scripts/run-agent-smoke.mjs",
+    "test:evals:list": "node scripts/list-evals.mjs",
+    "check": "tsc --noEmit",
+    "lint": "oxlint .",
+    "format:check": "prettier --check .",
+    "verify": "pnpm format:check && pnpm lint && pnpm check && pnpm test",
+    "browser:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "oxlint": "1.86.0",
+    "playwright": "1.63.0",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3",
+    "vitest": "5.0.2"
+  },
+  "packageManager": "pnpm@10.28.2",
+  "description": "Test coding-agent skills with Vitest, real file assertions, and Claude Code, Codex, or Copilot CLI.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderop/skill-evals-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanderop/skill-evals-starter/issues"
+  },
+  "homepage": "https://github.com/alexanderop/skill-evals-starter#readme"
+}

@@ -1,0 +1,23 @@
+# Vendored skill provenance
+
+`skills/brand-guidelines` and `skills/theme-factory` are unmodified complete directories from Anthropic's `anthropics/skills` repository at commit `33375500bcea98d610eb30ce10ac4e59b89c390d`.
+
+The original paths are `skills/brand-guidelines` and `skills/theme-factory`. Their license files remain beside the source. SHA-256 checksums:
+
+```text
+bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362  skills/brand-guidelines/LICENSE.txt
+1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe  skills/brand-guidelines/SKILL.md
+bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362  skills/theme-factory/LICENSE.txt
+c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552  skills/theme-factory/SKILL.md
+3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253  skills/theme-factory/theme-showcase.pdf
+868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0  skills/theme-factory/themes/arctic-frost.md
+222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765  skills/theme-factory/themes/botanical-garden.md
+bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f  skills/theme-factory/themes/desert-rose.md
+ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7  skills/theme-factory/themes/forest-canopy.md
+3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139  skills/theme-factory/themes/golden-hour.md
+0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944  skills/theme-factory/themes/midnight-galaxy.md
+b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614  skills/theme-factory/themes/modern-minimalist.md
+a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2  skills/theme-factory/themes/ocean-depths.md
+658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3  skills/theme-factory/themes/sunset-boulevard.md
+183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a  skills/theme-factory/themes/tech-innovation.md
+```
